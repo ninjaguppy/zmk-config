@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-//#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/outputs.h>
 
 
 &mt {
@@ -37,7 +37,6 @@
         };
     };
     keymap {
-//The Thing with Feathers
                 compatible = "zmk,keymap";
 
                 default_layer {
@@ -74,10 +73,10 @@
 
                 navigation_layer {
                         bindings = <
-   &none      &none        &none        &none &none  &none   &none    &none    &none  &none     &none &none
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &none &none  &none   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
-   &none      &bt BT_SEL 2 &bt BT_SEL 3 &none &none  &none   &none    &none    &none  &none     &none &none
-                    	                  &none &trans &none   &kp RET  &none    &none
+   &out OUT_TOG &none        &none        &none &none  &none   &none    &none    &none  &none     &none &none
+   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &none &none  &none   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+   &none        &bt BT_SEL 2 &bt BT_SEL 3 &none &none  &none   &none    &none    &none  &none     &none &none
+                    	                &none &trans &none   &kp RET  &none    &none
                         >;
                 };
         };
