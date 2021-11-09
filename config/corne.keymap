@@ -37,7 +37,6 @@
     };
     keymap {
 //The Thing with Feathers
-
                 compatible = "zmk,keymap";
 
                 default_layer {
