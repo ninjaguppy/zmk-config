@@ -58,7 +58,7 @@
    &trans  &kp EXCL &kp AT   &kp HASH     &kp DLLR   &kp PRCNT   &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR  &trans
    &trans  &kp LGUI &kp LALT &hm LCTRL F3 &kp LSHIFT &kp MINUS   &kp LBRC  &kp LPAR &kp RPAR &kp RBRC &kp BSLH  &trans
    &trans  &trans   &trans   &trans       &kp PLUS   &kp UNDER   &none     &kp LBKT &kp RBKT &kp PIPE &kp EQUAL &trans
-                          	 &trans       &kp SPACE  &kp TAB     &kp RET   &kp BSPC   &trans
+                          	 &trans       &kp SPACE  &kp TAB     &kp RET   &kp BSPC &trans
                         >;
                 };
 
