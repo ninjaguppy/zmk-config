@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 
@@ -19,6 +20,7 @@
    time-to-max-speed-ms = <680>;
    acceleration-exponent=<2>;
 };
+
 / {
     behaviors {
         hm: homerow_mods {
