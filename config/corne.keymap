@@ -46,9 +46,9 @@
 //|---------|----------|----------|-----------|------------|-----------|||-------|------------|------------|----------|--------------|--------|
    &kp ESC   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHIFT T &td MINUS G   &kp M   &hm LSHIFT N &hm RCTRL E  &hm RALT I &hm LGUI O     &kp SQT
 //|---------|----------|----------|-----------|------------|-----------|||-------|------------|------------|----------|--------------|--------|
-   &kp GRAVE &kp Z      &kp X      &kp C       &td PLUS D   &td LS(MINUS) V   &kp K   &kp H        &td LT COMMA &td GT DOT &td EQUAL FSLH &kp SQT
+   &kp GRAVE &kp Z      &kp X      &kp C       &td PLUS D   &td LS(MINUS) V &kp K &kp H        &td LT COMMA &td GT DOT &td EQUAL FSLH &kp SQT
 //|---------|----------|----------|-----------|------------|-----------|||-------|------------|------------|----------|--------------|--------|
-                                 &kp LS(MINUS) &lt 3 SPACE  &lt 2 TAB     &kp RET &kp BSPC     &lt 1 GRAVE
+                                   &kp GRAVE   &lt 3 SPACE  &lt 2 TAB     &kp RET &kp BSPC     &lt 1 GRAVE
 //                                |-----------|------------|-----------|||-------|------------|------------|
                         >;
                 };
